@@ -103,16 +103,11 @@ abstract class NumerosJava{
 }
 
 abstract class Numeros( // Constructor Primario
-    // Caso 1) Parametro normal
-    // uno:Int , (parametro (sin modificador acceso))
-
-    // Caso 2) Parametro y propiedad (atributo) (protected)
-    // private var uno: Int (propiedad "instancia.uno")
     protected val numeroUno: Int, // instancia.numeroUno
     protected val numeroDos: Int, // instancia.numeroDos
     parametroNoUsadoNoPropiedadDeLaClase:Int? = null
 ){
-    init { // bloque constructor primario OPCIONAL
+    init { // bloque constructor
         this.numeroUno
         this.numeroDos
         println("Inicializando")
