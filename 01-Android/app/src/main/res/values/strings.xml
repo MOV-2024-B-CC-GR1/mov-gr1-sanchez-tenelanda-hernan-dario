@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ccgr12024b_hdst</string>
-    <string name="saludo">Lands En</string>
-    <color name="saludo_color">#CD8915</color>
+    <string name="texto" translatable="false">LANDS ES</string>
+    <color name="color_fondo">#F44336</color>
+    <color name="text_color">#3F51B5</color>
 </resources>

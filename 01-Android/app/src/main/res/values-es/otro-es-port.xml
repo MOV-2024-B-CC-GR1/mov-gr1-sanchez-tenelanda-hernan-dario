@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="saludo_color">#009688</color>
+
+    <color name="color_fondo">#F44336</color>
+    <color name="text_color">#009688</color>
 </resources>
