@@ -1,5 +1,5 @@
 <resources>
-    <string name="texto" translatable="false">LANDS ES</string>
+    <string name="texto">Hola Amigos!</string>
     <color name="color_fondo">#F44336</color>
     <color name="text_color">#3F51B5</color>
 </resources>
