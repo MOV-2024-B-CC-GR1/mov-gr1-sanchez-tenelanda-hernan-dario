@@ -58,10 +58,8 @@ data class Departamento(
 }
 
 class CRUDManager {
-    // Configuración de rutas de archivos
-// Especifica la ruta directamente donde quieras guardar los archivos
-    // Especifica la ruta directamente donde quieras guardar los archivos
-    private val rutaBase = "C:\\Users\\escritorio.virtual30\\Downloads" // Ejemplo para Windows
+
+    private val rutaBase = "C:\\Users\\escritorio.virtual30\\Downloads"
 
     private val departamentosFile: File
     private val empleadosFile: File
@@ -69,14 +67,13 @@ class CRUDManager {
     private var empleados = mutableListOf<Empleado>()
 
     init {
-        // Crear directorio si no existe
+
         val directorio = File(rutaBase)
         if (!directorio.exists()) {
             directorio.mkdirs()
             println("Directorio creado en: ${rutaBase}")
         }
 
-        // Inicializar archivos con la ruta específica
         departamentosFile = File(rutaBase + "departamentos.txt")
         empleadosFile = File(rutaBase + "empleados.txt")
 
@@ -133,7 +130,6 @@ class CRUDManager {
             print("► ")
             val id = readLine()!!.toInt()
 
-            // Verificar si el ID ya existe
             if (departamentos.any { it.id == id }) {
                 println("\n✗ Error: Ya existe un departamento con ese ID!")
                 return
@@ -170,7 +166,6 @@ class CRUDManager {
             print("► ")
             val id = readLine()!!.toInt()
 
-            // Verificar si el ID ya existe
             if (empleados.any { it.id == id }) {
                 println("\n✗ Error: Ya existe un empleado con ese ID!")
                 return
