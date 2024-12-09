@@ -59,7 +59,9 @@ data class Departamento(
 
 class CRUDManager {
 
-    private val rutaBase = "C:\\Users\\escritorio.virtual30\\Downloads"
+    //private val rutaBase = "C:\\Users\\escritorio.virtual30\\Downloads"
+
+    private val rutaBase = "src/main/kotlin"
 
     private val departamentosFile: File
     private val empleadosFile: File
