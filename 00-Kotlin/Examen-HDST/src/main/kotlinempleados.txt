@@ -1,5 +1,4 @@
 1|Hernan Sanchez|2000.0|2024-12-08|true
 2|Juan Casas|350.0|2024-12-08|true
-3|Jose Sierra|3450.0|2024-12-08|true
+3|Juan Sierra|2000.0|2024-12-08|true
 4|Camila Pozo|650.0|2024-12-08|true
-5|Cristina Cueva|2500.0|2024-12-08|true
