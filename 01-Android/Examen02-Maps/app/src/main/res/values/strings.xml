@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Empresa de Software</string>
+    <string name="title_activity_ggoogle_maps_place_holder">activity_ggoogle_maps_place_holder
+    </string>
+    <string name="title_activity_ggoogle_mmaps_place_holder">ggoogle_mmaps_place_holder</string>
+    <string name="title_activity_ggoogle_maps_placeholder">GGoogleMapsPlaceholder</string>
+</resources>
